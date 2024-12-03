@@ -226,16 +226,20 @@ router.get('/:id/data', getQRCode);
  *             properties:
  *               webhook:
  *                 type: string
- *                 description: The WhatsApp webhook URL.
- *                 example: "https://your-whatsapp-webhook-url.com"
+ *                 description: The webhook URL.
+ *                 example: "https://your-webhook-url.com"
  *               webhook_key:
  *                 type: string
  *                 description: The key for securing WhatsApp webhook requests.
- *                 example: "secure-key-for-whatsapp"
+ *                 example: "secure-key-for-webhook"
  *               telegram_api_key:
  *                 type: string
  *                 description: Telegram API key for the bot.
  *                 example: "123456:ABC-DEF1234ghIkl-zyx57W2v1u123ew11"
+ *               discord_bot_token:
+ *                 type: string
+ *                 description: Discord API key for the bot.
+ *                 example: "MTAwMDAwMDAwMDAwMDAwMDAwMDAw.MQXAz.PyT0yXc31XR2CaVD019y45qK3kwm42xGexemplo"
  *     responses:
  *       200:
  *         description: Webhooks and/or API keys updated successfully.
