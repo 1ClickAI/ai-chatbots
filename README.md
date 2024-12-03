@@ -20,7 +20,7 @@ Welcome to **OneChat API** – a powerful, easy-to-use instance server system de
 
 ## 🎯 What is OneChat API?
 
-![OneChat API](https://i.imgur.com/4kUlSa0.png)
+![OneChat API](https://i.imgur.com/DYNJ5IQ.png)
 
 **OneChat API** is an advanced multi-platform bot management system designed for developers and businesses to control multiple bot instances across **WhatsApp**, **Telegram**, and **Discord**. It's powered by **1Click.AI**'s cutting-edge infrastructure and is highly customizable to fit your automation needs.
 
@@ -41,9 +41,7 @@ With **OneChat API**, you can:
 
 ---
 
-## 🔧 Installation
-
-### Using Docker 🐳
+## ⚙️ Installation Using Docker 🐳
 
 1. **Clone this repository**:
    ```bash
@@ -62,7 +60,7 @@ With **OneChat API**, you can:
 
 ---
 
-### Using EasyPanel 🚀
+## ⚙️ Installation Using EasyPanel 🚀
 
 To deploy using **EasyPanel**, you can use the following JSON schema:
 1. In EasyPanel, import the JSON schema above without making any edits to it.
