@@ -79,9 +79,9 @@ connectToDB()
         initializeAllInstances()
             .then(() => {
                 console.log(`
-                    🚀✨  OnetChat API Service Status ✨🚀
+                    🚀✨  OneChat API Service Status ✨🚀
                     --------------------------------------
-                    Version: ${version}
+                    ⚙️ Version: ${version}
                     --------------------------------------
                     ✅  Service has been successfully started!
                     🌐  All instances initialized and ready.
