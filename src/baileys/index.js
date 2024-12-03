@@ -508,7 +508,7 @@ async function initializeWhatsAppBot(id) {
             if (instance?.webhook) {
                 // Enviar mensagem ao webhook usando axios
                 const response = await axios.post(instance.webhook, {
-                    platform: 'whatsApp',
+                    platform: 'whatsapp',
                     id: userNumber,
                     user,
                     message: content,
