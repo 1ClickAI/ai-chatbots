@@ -140,7 +140,7 @@ async function getQRCode(req, res) {
 
         // Buscar informações da instância no banco de dados
         const result = await db.query(
-            'SELECT qr_code, status, phone_number, name, profile_picture, telegram_api_key FROM instances WHERE udid = $1',
+            'SELECT qr_code, status, phone_number, name, profile_picture, telegram_api_key, discord_bot_token FROM instances WHERE udid = $1',
             [id]
         );
         const instance = result.rows[0];
