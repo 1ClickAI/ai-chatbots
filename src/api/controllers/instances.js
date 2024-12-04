@@ -181,6 +181,8 @@ async function getQRCode(req, res) {
             phone_number: instance.phone_number,
             name: instance.name,
             profile_picture: instance.profile_picture,
+            telegram_api_key: instance.telegram_api_key,
+            discord_bot_token: instance.discord_bot_token,
             ...telegramBotInfo, // Adiciona informações do bot do Telegram, se disponíveis
         });
     } catch (error) {
